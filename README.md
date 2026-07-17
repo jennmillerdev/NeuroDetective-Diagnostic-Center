@@ -1,6 +1,9 @@
 # NeuroDetective Diagnostic Center
 
 ## Description
+This project is an educational simulation created to 
+demonstrate neurological concepts and does not 
+represent a real medical diagnostic tool.
 An interactive neurological emergency simulation
 where players analyze symptoms and select diagnostic
 tests for possible stroke or brain protection failure.
