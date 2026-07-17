@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NeuroDetective Diagnostic Center</title>
+
+        <!-- link to CSS file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <!-- Page Header -->
+        <header>
+            <h1>NeuroDetective Diagnostic Center</h1>
+            <p>Emergency Brain Analysis System</p>
+        </header>
+
+        <main>
+            <!-- Countdown Timer -->
+            <section class="timer">Time Remaining: <span id="timer">01:30</span></section>
+
+            <!-- Patient Information -->
+            <!-- Displays the scenario and explains the player's objective.  -->
+            <section id="patient" class="card">
+                <h2>Patient Arrival Report</h2>
+                <p>
+                    A patient has arrived with possible neurological symptoms. Your mission is to analyze the symptoms and select the correct diagnostic pathway before time runs out.
+                </p>
+            </section>
+
+            <!--  Patient Symptoms -->  
+            <!-- Lists the neurological symptoms observed in the patient. -->            
+            <section id="symptoms" class="card">
+                <h2>Detected Symptoms</h2>
+
+                <!-- List of neurological symptoms -->
+                <ul>
+                    <li>Slurred speech</li>
+                    <li>Weakness on one side of the body</li>
+                    <li>Confusion</li>
+                    <li>Loss of coordination</li>
+                </ul>
+            </section>
+
+            <!-- Diagnostic Path Selection   -->
+            <section id="choices" class="card">
+
+                <h2>Select Diagnostic Pathway</h2>
+                
+                <p>
+                    Choose the system you want to use to investigate the patient's condition.
+                </p>
+
+                <!-- Starts the Stroke Detection path. -->
+                <button id="strokeButton">
+                    🩸 Path 1: Stroke Detection
+                </button>
+
+                <!-- Starts the Brain Protection path. -->
+                <button id="protectionButton">
+                    🛡 Path 2: Brain Protection
+                </button>
+            </section>
+
+            <!-- Dynamic Diagnostic Results  -->
+            <!-- JavaScript will display choices here -->
+            <section id="diagnosticResults">empty</section>            
+        
+        </main>
+
+        <footer>
+            NeuroDetective System | Brain Health Simulation
+        </footer>
+
+        <!-- set up scripts -->
+        <script src="script.js"></script>
+
+    </body>
+</html>
